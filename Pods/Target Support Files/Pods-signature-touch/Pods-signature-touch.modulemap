@@ -1,6 +1,0 @@
-module Pods_signature_touch {
-  umbrella header "Pods-signature-touch-umbrella.h"
-
-  export *
-  module * { export * }
-}
