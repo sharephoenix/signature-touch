@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EC68EF2413823E0055F123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC68EE2413823E0055F123 /* AppDelegate.swift */; };
+		18EC68F12413823E0055F123 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC68F02413823E0055F123 /* SceneDelegate.swift */; };
+		18EC68F32413823E0055F123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC68F22413823E0055F123 /* ViewController.swift */; };
+		18EC68F62413823E0055F123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC68F42413823E0055F123 /* Main.storyboard */; };
+		18EC68F8241382420055F123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC68F7241382420055F123 /* Assets.xcassets */; };
+		18EC68FB241382420055F123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC68F9241382420055F123 /* LaunchScreen.storyboard */; };
+		18EC6906241382420055F123 /* signature_touchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC6905241382420055F123 /* signature_touchTests.swift */; };
+		18EC6911241382420055F123 /* signature_touchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC6910241382420055F123 /* signature_touchUITests.swift */; };
+		18EC6923241385750055F123 /* SignautreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC6922241385750055F123 /* SignautreView.swift */; };
+		18EC69252413908E0055F123 /* SignatureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC69242413908E0055F123 /* SignatureController.swift */; };
+		18EC6927241390A70055F123 /* SignatureNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC6926241390A70055F123 /* SignatureNavController.swift */; };
+		18EC69292413AC110055F123 /* SignautreBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC69282413AC110055F123 /* SignautreBoxView.swift */; };
+		C30A1DA39131EB226F70EF08 /* libPods-signature-touch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE63E2F413AC58C2B03EBB36 /* libPods-signature-touch.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18EC6902241382420055F123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EC68E32413823E0055F123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EC68EA2413823E0055F123;
+			remoteInfo = "signature-touch";
+		};
+		18EC690D241382420055F123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EC68E32413823E0055F123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EC68EA2413823E0055F123;
+			remoteInfo = "signature-touch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18EC68EB2413823E0055F123 /* signature-touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "signature-touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EC68EE2413823E0055F123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18EC68F02413823E0055F123 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18EC68F22413823E0055F123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18EC68F52413823E0055F123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EC68F7241382420055F123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EC68FA241382420055F123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EC68FC241382420055F123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EC6901241382420055F123 /* signature-touchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "signature-touchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EC6905241382420055F123 /* signature_touchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signature_touchTests.swift; sourceTree = "<group>"; };
+		18EC6907241382420055F123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EC690C241382420055F123 /* signature-touchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "signature-touchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EC6910241382420055F123 /* signature_touchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signature_touchUITests.swift; sourceTree = "<group>"; };
+		18EC6912241382420055F123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EC6922241385750055F123 /* SignautreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignautreView.swift; sourceTree = "<group>"; };
+		18EC69242413908E0055F123 /* SignatureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureController.swift; sourceTree = "<group>"; };
+		18EC6926241390A70055F123 /* SignatureNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureNavController.swift; sourceTree = "<group>"; };
+		18EC69282413AC110055F123 /* SignautreBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignautreBoxView.swift; sourceTree = "<group>"; };
+		4865A8101B00681F75BCBC29 /* Pods-signature-touch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signature-touch.debug.xcconfig"; path = "Target Support Files/Pods-signature-touch/Pods-signature-touch.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0DB58790E21C749832B832 /* Pods-signature-touch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signature-touch.release.xcconfig"; path = "Target Support Files/Pods-signature-touch/Pods-signature-touch.release.xcconfig"; sourceTree = "<group>"; };
+		AE63E2F413AC58C2B03EBB36 /* libPods-signature-touch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-signature-touch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EC68E82413823E0055F123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30A1DA39131EB226F70EF08 /* libPods-signature-touch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC68FE241382420055F123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC6909241382420055F123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EC68E22413823E0055F123 = {
+			isa = PBXGroup;
+			children = (
+				18EC68ED2413823E0055F123 /* signature-touch */,
+				18EC6904241382420055F123 /* signature-touchTests */,
+				18EC690F241382420055F123 /* signature-touchUITests */,
+				18EC68EC2413823E0055F123 /* Products */,
+				68CCA764878D4E110D2C8528 /* Pods */,
+				BC62DB5F5C47FD749A69B362 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18EC68EC2413823E0055F123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EC68EB2413823E0055F123 /* signature-touch.app */,
+				18EC6901241382420055F123 /* signature-touchTests.xctest */,
+				18EC690C241382420055F123 /* signature-touchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EC68ED2413823E0055F123 /* signature-touch */ = {
+			isa = PBXGroup;
+			children = (
+				18EC692C2413BD960055F123 /* controllers */,
+				18EC692B2413BD830055F123 /* views */,
+				18EC692A2413BD1B0055F123 /* signature-touch-sdk */,
+				18EC68EE2413823E0055F123 /* AppDelegate.swift */,
+				18EC68F02413823E0055F123 /* SceneDelegate.swift */,
+				18EC68F22413823E0055F123 /* ViewController.swift */,
+				18EC68F42413823E0055F123 /* Main.storyboard */,
+				18EC68F7241382420055F123 /* Assets.xcassets */,
+				18EC68F9241382420055F123 /* LaunchScreen.storyboard */,
+				18EC68FC241382420055F123 /* Info.plist */,
+			);
+			path = "signature-touch";
+			sourceTree = "<group>";
+		};
+		18EC6904241382420055F123 /* signature-touchTests */ = {
+			isa = PBXGroup;
+			children = (
+				18EC6905241382420055F123 /* signature_touchTests.swift */,
+				18EC6907241382420055F123 /* Info.plist */,
+			);
+			path = "signature-touchTests";
+			sourceTree = "<group>";
+		};
+		18EC690F241382420055F123 /* signature-touchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18EC6910241382420055F123 /* signature_touchUITests.swift */,
+				18EC6912241382420055F123 /* Info.plist */,
+			);
+			path = "signature-touchUITests";
+			sourceTree = "<group>";
+		};
+		18EC692A2413BD1B0055F123 /* signature-touch-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				18EC6922241385750055F123 /* SignautreView.swift */,
+			);
+			path = "signature-touch-sdk";
+			sourceTree = "<group>";
+		};
+		18EC692B2413BD830055F123 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				18EC69282413AC110055F123 /* SignautreBoxView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		18EC692C2413BD960055F123 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18EC69242413908E0055F123 /* SignatureController.swift */,
+				18EC6926241390A70055F123 /* SignatureNavController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		68CCA764878D4E110D2C8528 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4865A8101B00681F75BCBC29 /* Pods-signature-touch.debug.xcconfig */,
+				AA0DB58790E21C749832B832 /* Pods-signature-touch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC62DB5F5C47FD749A69B362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE63E2F413AC58C2B03EBB36 /* libPods-signature-touch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EC68EA2413823E0055F123 /* signature-touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EC6915241382420055F123 /* Build configuration list for PBXNativeTarget "signature-touch" */;
+			buildPhases = (
+				26B91BDDEDDA3AC7DE3958F8 /* [CP] Check Pods Manifest.lock */,
+				18EC68E72413823E0055F123 /* Sources */,
+				18EC68E82413823E0055F123 /* Frameworks */,
+				18EC68E92413823E0055F123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "signature-touch";
+			productName = "signature-touch";
+			productReference = 18EC68EB2413823E0055F123 /* signature-touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18EC6900241382420055F123 /* signature-touchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EC6918241382420055F123 /* Build configuration list for PBXNativeTarget "signature-touchTests" */;
+			buildPhases = (
+				18EC68FD241382420055F123 /* Sources */,
+				18EC68FE241382420055F123 /* Frameworks */,
+				18EC68FF241382420055F123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EC6903241382420055F123 /* PBXTargetDependency */,
+			);
+			name = "signature-touchTests";
+			productName = "signature-touchTests";
+			productReference = 18EC6901241382420055F123 /* signature-touchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18EC690B241382420055F123 /* signature-touchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EC691B241382420055F123 /* Build configuration list for PBXNativeTarget "signature-touchUITests" */;
+			buildPhases = (
+				18EC6908241382420055F123 /* Sources */,
+				18EC6909241382420055F123 /* Frameworks */,
+				18EC690A241382420055F123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EC690E241382420055F123 /* PBXTargetDependency */,
+			);
+			name = "signature-touchUITests";
+			productName = "signature-touchUITests";
+			productReference = 18EC690C241382420055F123 /* signature-touchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EC68E32413823E0055F123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18EC68EA2413823E0055F123 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					18EC6900241382420055F123 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18EC68EA2413823E0055F123;
+					};
+					18EC690B241382420055F123 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18EC68EA2413823E0055F123;
+					};
+				};
+			};
+			buildConfigurationList = 18EC68E62413823E0055F123 /* Build configuration list for PBXProject "signature-touch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EC68E22413823E0055F123;
+			productRefGroup = 18EC68EC2413823E0055F123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EC68EA2413823E0055F123 /* signature-touch */,
+				18EC6900241382420055F123 /* signature-touchTests */,
+				18EC690B241382420055F123 /* signature-touchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EC68E92413823E0055F123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC68FB241382420055F123 /* LaunchScreen.storyboard in Resources */,
+				18EC68F8241382420055F123 /* Assets.xcassets in Resources */,
+				18EC68F62413823E0055F123 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC68FF241382420055F123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC690A241382420055F123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26B91BDDEDDA3AC7DE3958F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-signature-touch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EC68E72413823E0055F123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC6927241390A70055F123 /* SignatureNavController.swift in Sources */,
+				18EC68F32413823E0055F123 /* ViewController.swift in Sources */,
+				18EC69252413908E0055F123 /* SignatureController.swift in Sources */,
+				18EC68EF2413823E0055F123 /* AppDelegate.swift in Sources */,
+				18EC68F12413823E0055F123 /* SceneDelegate.swift in Sources */,
+				18EC69292413AC110055F123 /* SignautreBoxView.swift in Sources */,
+				18EC6923241385750055F123 /* SignautreView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC68FD241382420055F123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC6906241382420055F123 /* signature_touchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC6908241382420055F123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC6911241382420055F123 /* signature_touchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18EC6903241382420055F123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EC68EA2413823E0055F123 /* signature-touch */;
+			targetProxy = 18EC6902241382420055F123 /* PBXContainerItemProxy */;
+		};
+		18EC690E241382420055F123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EC68EA2413823E0055F123 /* signature-touch */;
+			targetProxy = 18EC690D241382420055F123 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18EC68F42413823E0055F123 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EC68F52413823E0055F123 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18EC68F9241382420055F123 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EC68FA241382420055F123 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EC6913241382420055F123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EC6914241382420055F123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EC6916241382420055F123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4865A8101B00681F75BCBC29 /* Pods-signature-touch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25MV5MB49G;
+				INFOPLIST_FILE = "signature-touch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18EC6917241382420055F123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0DB58790E21C749832B832 /* Pods-signature-touch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25MV5MB49G;
+				INFOPLIST_FILE = "signature-touch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18EC6919241382420055F123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "signature-touchTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.demo.signature-touchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/signature-touch.app/signature-touch";
+			};
+			name = Debug;
+		};
+		18EC691A241382420055F123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "signature-touchTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.demo.signature-touchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/signature-touch.app/signature-touch";
+			};
+			name = Release;
+		};
+		18EC691C241382420055F123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "signature-touchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.demo.signature-touchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "signature-touch";
+			};
+			name = Debug;
+		};
+		18EC691D241382420055F123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "signature-touchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.demo.signature-touchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "signature-touch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EC68E62413823E0055F123 /* Build configuration list for PBXProject "signature-touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC6913241382420055F123 /* Debug */,
+				18EC6914241382420055F123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EC6915241382420055F123 /* Build configuration list for PBXNativeTarget "signature-touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC6916241382420055F123 /* Debug */,
+				18EC6917241382420055F123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EC6918241382420055F123 /* Build configuration list for PBXNativeTarget "signature-touchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC6919241382420055F123 /* Debug */,
+				18EC691A241382420055F123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EC691B241382420055F123 /* Build configuration list for PBXNativeTarget "signature-touchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC691C241382420055F123 /* Debug */,
+				18EC691D241382420055F123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EC68E32413823E0055F123 /* Project object */;
+}
